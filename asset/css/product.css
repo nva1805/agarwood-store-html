@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.product-info {
+    margin-top: 70px !important;
+}
+.product-info h2 {
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid #000;
+}
+.display-for-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-decs {
+    height: 355px;
+}
+.product-decs:hover {
+    /* opacity: 0.9; */
+    border: 1px solid #888;
+}
+.product-decs img {
+    width: 220px;
+}
+.product-decs span {
+    display: block;
+    text-align: center;
+}
