@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 .green-background {
     background-color: rgb(24, 211, 24) !important;
     color: #fff;
@@ -153,6 +156,7 @@
 }
 .contact-title a {
     text-decoration: none;
+    color: #000;
 }
 .contact-title span {
     margin-left: 12px;
